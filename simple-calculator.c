@@ -14,7 +14,7 @@ void main()
         printf("entre second value = ");
         scanf("%f", &value2);
         result = value1 + value2;
-        printf("%f %c %f = %lf", value1, opr, value2, result);
+        printf("%f %c %f = %f", value1, opr, value2, result);
         break;
     case '-':
         printf("enter first value = ");
@@ -22,7 +22,7 @@ void main()
         printf("enter second value = ");
         scanf("%f", &value2);
         result = value1 - value2;
-        printf("%f %c %f = %lf", value1, opr, value2, result);
+        printf("%f %c %f = %f", value1, opr, value2, result);
         break;
     case '*':
         printf("enter first value = ");
@@ -30,7 +30,7 @@ void main()
         printf("enter second value = ");
         scanf("%f", &value2);
         result = value1 * value2;
-        printf("%f %c %f = %lf", value1, opr, value2, result);
+        printf("%f %c %f = %f", value1, opr, value2, result);
         break;
     case '/':
         printf("enter first value = ");
@@ -38,7 +38,7 @@ void main()
         printf("enter second value = ");
         scanf("%f", &value2);
         result = value1 / value2;
-        printf("%f %c %f = %lf", value1, opr, value2, result);
+        printf("%f %c %f = %f", value1, opr, value2, result);
         break;
     default:
         printf("enter valid operation name");
