@@ -16,9 +16,7 @@ label:
         scanf("%f", &value2);
 
         result = (double)value1 + value2;
-        printf("%f %c %f = %lf", value1, opr, value2, (double)result);
-
-        result = value1 + value2;
+        
         printf("%f %c %f = %f", value1, opr, value2, result);
         break;
     case '-':
@@ -28,9 +26,7 @@ label:
         scanf("%f", &value2);
 
         result = (double)value1 - value2;
-        printf("%f %c %f = %lf", value1, opr, value2, (double)result);
-
-        result = value1 - value2;
+       
         printf("%f %c %f = %f", value1, opr, value2, result);
 
         break;
@@ -40,8 +36,7 @@ label:
         printf("enter second value = ");
         scanf("%f", &value2);
         result = (double)value1 * value2;
-        printf("%f %c %f = %lf", value1, opr, value2, (double)result);
-        result = value1 * value2;
+      
         printf("%f %c %f = %f", value1, opr, value2, result);
 
         break;
